@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;800;900&display=swap);
+
+* {
+    font-family: 'Montserrat';
+}
+
+
+body {
+    margin: 0 auto;
+}
+
+/* texte */
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 40px;
+}
+
+section.top-page {
+    background: url('../images/fond.jpg') ;
+    background-size: cover;
+    height: 100vh;
+    padding: 25px;
+}
+
+/* Page de bienvenue (landing page) */
+
+.landing-page {
+    padding: 10px 20px;
+}
+
+.big-title {
+    color: white;
+    font-size: 50px;
+}
+
+.discord {
+    color: aliceblue;
+    position: absolute;
+    bottom: 160px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.discord2 {
+    color: white;
+    position: absolute;
+    bottom: 160px;
+    margin-left: 650px;
+    font-size: 20px;
+}
+
+.info {
+    color: white;
+    bottom: 160px;
+    font-size: 30px;
+    position: absolute;
+    margin: 250px 0px;
+}
+
+.info2 {
+    color: white;
+    bottom: 160px;
+    font-size: 30px;
+    position: absolute;
+    margin: 290px 0px;
+}
+
+.info3 {
+    color: white;
+    bottom: 160px;
+    font-size: 30px;
+    position: absolute;
+    margin: 200px 0px;
+}
+
+
+/* menu de navigation*/
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 1000px;
+    margin-left: 45px;
+}
+
+nav.nav li {
+    color: white;
+}
+
+/* services */
+
+.services {
+    display: flexbox;
+}
+
+/* page Opera GX */
+
+.OperaTele {
+    margin: 100px;
+    display: flex;
+    color: red;
+    list-style: none;
+}
+
+/* page Proton VPN */
+
+.ProtonV {
+    margin-left: 100px;
+    color: blue;
+    display: flex;
+    list-style: none;
+}
